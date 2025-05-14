@@ -1,0 +1,87 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citātu Kolekcija</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Citātu Kolekcija</h1>
+  </header>
+  <nav>
+    <a href="index.html">Sākums</a>
+    <a href="about.html">Par mums</a>
+    <a href="submit.html">Pievienot citātu</a>
+  </nav>
+  <div class="left-content">
+    <h3>Kategorijas</h3>
+    <ul>
+      <li>Motivācija</li>
+      <li>Dzīve</li>
+      <li>Humors</li>
+    </ul>
+  </div>
+  <div class="center-content">
+    <h2>Nejaušs Citāts</h2>
+    <p id="quoteDisplay"></p>
+    <button onclick="showRandomQuote()">Parādīt citātu</button>
+  </div>
+  <div class="right-content">
+    <h3>Ieteiktais Citāts</h3>
+    <p>"Citāts īsā formā spēj nodot veselu dzīves stāstu."</p>
+  </div>
+  <footer>
+    <p>&copy; 2025 Citātu Projekts</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Par mums</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Par Projektu</h1></header>
+  <nav>
+    <a href="index.html">Sākums</a>
+    <a href="about.html">Par mums</a>
+    <a href="submit.html">Pievienot citātu</a>
+  </nav>
+  <div class="center-content">
+  </div>
+  <footer><p>&copy; 2025 Citātu Projekts</p></footer>
+</body>
+</html>
+
+<!-- submit.html -->
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Pievienot Citātu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Pievieno Savu Citātu</h1></header>
+  <nav>
+    <a href="index.html">Sākums</a>
+    <a href="about.html">Par mums</a>
+    <a href="submit.html">Pievienot citātu</a>
+  </nav>
+  <div class="center-content">
+    <input type="text" id="quoteInput" placeholder="Ievadi savu citātu">
+    <button onclick="addQuote()">Pievienot</button>
+  </div>
+  <footer><p>&copy; 2025 Citātu Projekts</p></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
